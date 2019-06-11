@@ -1,7 +1,7 @@
 NAME (as in repos),DESCRIPTION
 i3-gaps,window manager
 xorg-server,graphical server
-xorg-xwininfo
+xorg-xwininfo,
 xorg-xinit,starts the graphical server
 ttf-liberation,font package
 arandr,UI for screen adjustments
@@ -14,7 +14,7 @@ ffmpeg,terminal video editor
 networkmanager,
 network-manager-applet,
 pulseaudio,
-pulseaudio-alsa
+pulseaudio-alsa,
 pulsemixer,
 htop,
 redshift,
