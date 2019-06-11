@@ -1,0 +1,96 @@
+
+#define fnt "Source Code Pro"
+#define fntSize 10
+
+! snazzy theme
+#define clrBackground [97]#282a36
+#define clrForeground #eff0eb
+#define clrCursor #9aedfe
+
+#define clr0 #33303b
+#define clr1 #ff5c57
+#define clr2 #5af78e
+#define clr3 #f3f99d
+#define clr4 #57c7ff
+#define clr5 #ff6ac1
+#define clr6 #9aedfe
+#define clr7 #eff0eb
+#define clr8 #4f4b58
+#define clr9 #ff5c57
+#define clr10 #5af78e
+#define clr11 #f3f99d
+#define clr12 #57c7ff
+#define clr13 #ff6ac1
+#define clr14 #9aedfe
+#define clr15 #eff0eb
+
+! material theme (link: https://github.com/ntpeters/base16-materialtheme-scheme)
+!#define clrBackground #263238
+!#define clrForeground #eeffff
+!#define clrCursor #eeffff
+!
+!#define clr0 #263238
+!#define clr1 #f07178
+!#define clr2 #c3e88d
+!#define clr3 #ffcb6b
+!#define clr4 #82aaff
+!#define clr5 #c792ea
+!#define clr6 #89ddff
+!#define clr7 #eeffff
+!#define clr8 #546e7a
+!#define clr9 #f78c6c
+!#define clr10 #2e3c43
+!#define clr11 #314549
+!#define clr12 #b2ccd6
+!#define clr13 #eeffff
+!#define clr14 #ff5370
+!#define clr15 #ffffff
+
+! theme #1 (lost the name)
+!#define clrBackground black
+!#define clrForeground white
+!
+!#define clr0 #1e1e1e
+!#define clr1 #323537
+!#define clr2 #464b50
+!#define clr3 #5f5a60
+!#define clr4 #838184
+!#define clr5 #a7a7a7
+!#define clr6 #c3c3c3
+!#define clr7 #ffffff
+!#define clr8 #cf6a4c
+!#define clr9 #cda869
+!#define clr10 #f9ee98
+!#define clr11 #8f9d6a
+!#define clr12 #afc4db
+!#define clr13 #7587a6
+!#define clr14 #9b859d
+!#define clr15 #9b703f
+
+
+URxvt.font: xft:fnt:size=fntSize
+
+URxvt.scrollBar: false
+
+URxvt.transparent: false
+!URxvt.depth: 32
+
+URxvt.background: clrBackground
+URxvt.foreground: clrForeground
+URxvt.cursorColor: clrCursor
+URxvt.color0: clr0
+URxvt.color1: clr1
+URxvt.color2: clr2
+URxvt.color3: clr3
+URxvt.color4: clr4
+URxvt.color5: clr5
+URxvt.color6: clr6
+URxvt.color7: clr7
+URxvt.color8: clr8
+URxvt.color9: clr9
+URxvt.color10: clr10
+URxvt.color11: clr11
+URxvt.color12: clr12
+URxvt.color13: clr13
+URxvt.color14: clr14
+URxvt.color15: clr15
