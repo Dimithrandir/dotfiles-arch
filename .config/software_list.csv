@@ -26,3 +26,4 @@ i3lock,locks the screen for i3
 xautolock, locks the screen when inactive
 scrot,screenshot taking (not used curently)
 polkit-gnome,authentication window
+xcursor-breeze,cursor theme (AUR)

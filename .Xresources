@@ -2,26 +2,65 @@
 #define fnt "Source Code Pro"
 #define fntSize 10
 
+! twilight.dark theme
+! special
+!#define clrBackground   #1d1f21
+!#define clrForeground   #c5c8c6
+!#define clrCursor  #c5c8c6
+!
+!! black
+!#define clr0       #282a2e
+!#define clr8       #373b41
+!! red
+!#define clr1       #a54242
+!#define clr9       #cc6666
+!! green
+!#define clr2       #8c9440
+!#define clr10      #b5bd68
+!! yellow
+!#define clr3       #de935f
+!#define clr11      #f0c674
+!! blue
+!#define clr4       #5f819d
+!#define clr12      #81a2be
+!! magenta
+!#define clr5       #85678f
+!#define clr13      #b294bb
+!! cyan
+!#define clr6       #5e8d87
+!#define clr14      #8abeb7
+!! white
+!#define clr7       #707880
+!#define clr15      #c5c8c6
+
 ! snazzy theme
+! special
 #define clrBackground [97]#282a36
 #define clrForeground #eff0eb
 #define clrCursor #9aedfe
-
+! black
 #define clr0 #33303b
-#define clr1 #ff5c57
-#define clr2 #5af78e
-#define clr3 #f3f99d
-#define clr4 #57c7ff
-#define clr5 #ff6ac1
-#define clr6 #9aedfe
-#define clr7 #eff0eb
 #define clr8 #4f4b58
+! red
+#define clr1 #ff5c57
 #define clr9 #ff5c57
+! green
+#define clr2 #5af78e
 #define clr10 #5af78e
+! yellow
+#define clr3 #f3f99d
 #define clr11 #f3f99d
+! blue
+#define clr4 #57c7ff
 #define clr12 #57c7ff
+! magenta
+#define clr5 #ff6ac1
 #define clr13 #ff6ac1
+! cyan
+#define clr6 #9aedfe
 #define clr14 #9aedfe
+! white
+#define clr7 #eff0eb
 #define clr15 #eff0eb
 
 ! material theme (link: https://github.com/ntpeters/base16-materialtheme-scheme)

@@ -6,7 +6,9 @@
 [[ $- != *i* ]] && return
 
 alias ls='ls --color=auto'
-PS1='[\u@\h \W]\$ '
+# bash prompt
+PS1='\[\033[1;34m\][\u@\h \[\033[1;37m\]\W\[\033[1;34m\]]\$ \[\033[0m\]'
+# PS1='[\u@\h \W]\$ '
 
 export LANG=en_US.UTF-8
 export LC_MESSAGES="C"
