@@ -1,21 +1,22 @@
 NAME (as in repos),DESCRIPTION
 i3-gaps,window manager
 xorg-server,graphical server
-xorg-xwininfo,
 xorg-xinit,starts the graphical server
-ttf-liberation,font package
-arandr,UI for screen adjustments
-xcompmgr,lite compositor
-compton, compositor forked from xcompmgr
+xorg-xwininfo,querying window info
 xorg-xprop,detects window properties
-libnotify,for desktop notifications
+arandr,GUI for screen adjustments
+xcompmgr,lite compositor (NOT USED)
+compton, compositor forked from xcompmgr
 xwallpaper,sets wallpapers
+ttf-liberation,font package
+libnotify,for desktop notifications
 ffmpeg,terminal video editor
 networkmanager,
 network-manager-applet,
 pulseaudio,
 pulseaudio-alsa,
 pulsemixer,
+volumeicon,volume tray controler 
 htop,
 redshift,
 unzip,
@@ -24,6 +25,9 @@ ntfs-3g,for reading ntfw partitions
 lxappearance,gui app for theme changes
 i3lock,locks the screen for i3
 xautolock, locks the screen when inactive
-scrot,screenshot taking (not used curently)
+scrot,screenshot taking (NOT USED)
 polkit-gnome,authentication window
 xcursor-breeze,cursor theme (AUR)
+thunar,file manager
+ranger,terminal file manager
+viewnior,image viewer
