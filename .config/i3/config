@@ -233,6 +233,12 @@ bar {
 
 	position bottom 
 
+	tray_padding 2px
+
+	# font pango:Noto Sans Display Bold 9
+	
+	# separator_symbol " | "
+
 	# don't show the workspace number before its name if it's set to keep them in order
 	strip_workspace_numbers yes
 	strip_workspace_name no

@@ -4,6 +4,7 @@ xorg-server,graphical server
 xorg-xinit,starts the graphical server
 xorg-xwininfo,querying window info
 xorg-xprop,detects window properties
+xorg-xinput,configure and test X input devices (mouse etc.)
 arandr,GUI for screen adjustments
 xcompmgr,lite compositor (NOT USED)
 compton, compositor forked from xcompmgr
