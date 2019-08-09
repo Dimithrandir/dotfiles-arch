@@ -1,0 +1,19 @@
+#!/bin/bash
+
+FILENAME="$HOME/Pictures/screenshot_`date +%Y-%m-%d_%T`.png"
+case "$1" in 
+	full)
+		import -window root "$FILENAME"
+		;;
+	crop)
+		import "$FILENAME"
+		;;
+	window)
+		import -border -window `xwininfo | awk '/.*Window id:.*/ {print $4}'` "$FILENAME"	
+		;;
+	*)
+		echo "Usage: $0 [full|window|crop]"
+		exit 2
+esac
+notify-send -i camera-photo-symbolic.symbolic "Screenshot" "Saved to $FILENAME"
+exit 0
