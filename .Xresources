@@ -2,37 +2,6 @@
 #define fnt "Source Code Pro"
 #define fntSize 10
 
-! twilight.dark theme
-! special
-!#define clrBackground   #1d1f21
-!#define clrForeground   #c5c8c6
-!#define clrCursor  #c5c8c6
-!
-!! black
-!#define clr0       #282a2e
-!#define clr8       #373b41
-!! red
-!#define clr1       #a54242
-!#define clr9       #cc6666
-!! green
-!#define clr2       #8c9440
-!#define clr10      #b5bd68
-!! yellow
-!#define clr3       #de935f
-!#define clr11      #f0c674
-!! blue
-!#define clr4       #5f819d
-!#define clr12      #81a2be
-!! magenta
-!#define clr5       #85678f
-!#define clr13      #b294bb
-!! cyan
-!#define clr6       #5e8d87
-!#define clr14      #8abeb7
-!! white
-!#define clr7       #707880
-!#define clr15      #c5c8c6
-
 ! snazzy theme
 ! special
 #define clrBackground [97]#282a36
@@ -62,50 +31,6 @@
 ! white
 #define clr7 #eff0eb
 #define clr15 #eff0eb
-
-! material theme (link: https://github.com/ntpeters/base16-materialtheme-scheme)
-!#define clrBackground #263238
-!#define clrForeground #eeffff
-!#define clrCursor #eeffff
-!
-!#define clr0 #263238
-!#define clr1 #f07178
-!#define clr2 #c3e88d
-!#define clr3 #ffcb6b
-!#define clr4 #82aaff
-!#define clr5 #c792ea
-!#define clr6 #89ddff
-!#define clr7 #eeffff
-!#define clr8 #546e7a
-!#define clr9 #f78c6c
-!#define clr10 #2e3c43
-!#define clr11 #314549
-!#define clr12 #b2ccd6
-!#define clr13 #eeffff
-!#define clr14 #ff5370
-!#define clr15 #ffffff
-
-! theme #1 (lost the name)
-!#define clrBackground black
-!#define clrForeground white
-!
-!#define clr0 #1e1e1e
-!#define clr1 #323537
-!#define clr2 #464b50
-!#define clr3 #5f5a60
-!#define clr4 #838184
-!#define clr5 #a7a7a7
-!#define clr6 #c3c3c3
-!#define clr7 #ffffff
-!#define clr8 #cf6a4c
-!#define clr9 #cda869
-!#define clr10 #f9ee98
-!#define clr11 #8f9d6a
-!#define clr12 #afc4db
-!#define clr13 #7587a6
-!#define clr14 #9b859d
-!#define clr15 #9b703f
-
 
 URxvt.font: xft:fnt:size=fntSize
 

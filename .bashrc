@@ -8,6 +8,9 @@
 # ls with color output
 alias ls='ls --color=auto'
 
+# change some coloring rules for ls
+eval "$(dircolors ~/.dircolors)"
+
 # grep with color output
 alias grep='grep --color=auto'
 

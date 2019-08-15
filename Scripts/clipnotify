@@ -1,0 +1,7 @@
+#!/bin/bash
+
+primary=$( xclip -o -selection primary )
+clipboard=$( xclip -o -selection clipboard )
+
+notify-send "Primary selection:" "$primary"
+notify-send "Clipboard selection:" "$clipboard"

@@ -1,19 +1,19 @@
 #!/bin/bash
 
-FILENAME="$HOME/Pictures/screenshot_`date +%Y-%m-%d_%T`.png"
+filename="$HOME/Pictures/screenshot_`date +%Y-%m-%d_%T`.png"
 case "$1" in 
 	full)
-		import -window root "$FILENAME"
+		import -window root "$filename"
 		;;
 	crop)
-		import "$FILENAME"
+		import "$filename"
 		;;
 	window)
-		import -border -window `xwininfo | awk '/.*Window id:.*/ {print $4}'` "$FILENAME"	
+		import -border -window `xwininfo | awk '/.*Window id:.*/ {print $4}'` "$filename"	
 		;;
 	*)
 		echo "Usage: $0 [full|window|crop]"
 		exit 2
 esac
-notify-send -i camera-photo-symbolic.symbolic "Screenshot" "Saved to $FILENAME"
+notify-send -i camera-photo-symbolic.symbolic "Screenshot" "Saved to $filename"
 exit 0

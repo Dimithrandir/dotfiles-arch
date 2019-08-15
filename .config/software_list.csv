@@ -38,3 +38,4 @@ transmission-cli,torrent client daemon
 tremc,text interface for transmission
 zathura,minimalist pdf viewer
 bc,bash calculator
+xclip,allows for copying and pasting from the command line
